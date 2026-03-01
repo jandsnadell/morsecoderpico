@@ -34,7 +34,7 @@ If your script runs an error like
 
 Traceback (most recent call last):
   File "<stdin>", line 6, in <module>
-ImportError: no module named 'examplemodule', 
+ImportError: [no module named 'examplemodule'], 
 
 make sure the interpreter you're using on your IDE is "CircuitPython (General), IF it has it.
 If not, find an IDE that does. 
