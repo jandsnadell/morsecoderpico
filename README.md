@@ -10,7 +10,7 @@ It also translates out of morse code using a button and a very simple circuit.
 # Installation
 (1) Download as ZIP
 
-(2) Extract and take the UF2 file and put it on your Pico. (drive name RPI-RP2).
+(2) Extract and take the ADAFRUIT UF2 file and put it on your Pico. (drive name RPI-RP2).
 
 (3) The Pico will reboot and the new drive name should be CIRCUITPY.
 
@@ -44,4 +44,5 @@ If it runs the same error, but the module is "morse", or "blinkboard", make sure
 
 If the rest works, but the button doesn't, check that the wires are in the right pins, and that your script knows it.
 
+If, after you add the UF2, your Pico doesn't show up, unplug, hold BOOTSEL, and, while holding BOOTSEL, plug it back in. Then, add your flash_nuke.uf2 file, and try again.
  
