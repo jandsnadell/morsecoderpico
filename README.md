@@ -40,6 +40,6 @@ make sure the interpreter you're using on your IDE is "CircuitPython (General), 
 If not, find an IDE that does. 
 If it runs the same error, but the module is "morse", or "blinkboard", make sure morse.py, and blinkboard.py are in your CIRCUITPY drive. 
 
-If the rest works, but the button doesn't, check that the wires are in the right pins, and your script knows it.
+If the rest works, but the button doesn't, check that the wires are in the right pins, and that your script knows it.
 
  
